@@ -66,7 +66,7 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; background-
 
 .panel-description{
     padding: 5px 5px 5px 25px;
-    background-color: #f0f5fb6b;
+    background-color: $bg-description;
     font-size: 12px;
 }
 
@@ -81,4 +81,10 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; background-
   width: 200px;
   margin-bottom: 10px;
   min-width: 24%;
+}
+.mat-grid-tile.overflow-scroll{
+  overflow-y: auto;
+}
+.bg-transparant{
+  background-color:transparent
 }

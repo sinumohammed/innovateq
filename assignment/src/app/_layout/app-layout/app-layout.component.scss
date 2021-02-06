@@ -1,5 +1,8 @@
 @import "../../../_variables.scss"; 
-.label-menu
+.left-bar{
+    background-color:$white;
+    margin-top: 2px;
+    .label-menu
 {
     border-bottom: 1px solid $menu-border;
     span{
@@ -10,4 +13,5 @@
         font-size: 13px;
         border-left: 5px solid $primary;
     }
+}
 }

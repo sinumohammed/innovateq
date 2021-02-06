@@ -1,4 +1,4 @@
-<mat-sidenav-container fxFlexFill style="background-color:transparent">
+<mat-sidenav-container fxFlexFill class="bg-transparant">
     <mat-sidenav #sidenav>
         <mat-nav-list>
             <a (click)="sidenav.toggle()" mat-list-item>Close</a>
@@ -8,13 +8,13 @@
     <mat-sidenav-content fxFlexFill>
         <app-header (sidenavToggle)="sidenav.toggle()"></app-header>
         <mat-grid-list [cols]="columns" rowHeight="96%" class="override" (window:resize)="onBoxResize()">
-            <mat-grid-tile fxHide.lt-md [colspan]="spanWidth" [rowspan]="spanWidth" style="background-color:#FFF;margin-top: 2px;">
+            <mat-grid-tile fxHide.lt-md [colspan]="spanWidth" [rowspan]="spanWidth" class="left-bar">
                 <div class="label-menu">
                     <span>MENU</span>
                 </div>
                 <app-side-nav></app-side-nav>
             </mat-grid-tile>
-            <mat-grid-tile [colspan]="columnspan" rowspan="1">
+            <mat-grid-tile class="overflow-scroll" [colspan]="columnspan" rowspan="1">
                 <router-outlet></router-outlet>
             </mat-grid-tile>
         </mat-grid-list>
