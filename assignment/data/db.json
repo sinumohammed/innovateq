@@ -1,0 +1,140 @@
+{
+    "cards": [
+        {
+            "id": 1,
+            "text": "Total Orders",
+            "icon": "shopping_cart",
+            "value": 345
+        },
+        {
+            "id": 2,
+            "text": "Total Expenses",
+            "icon": "show_chart",
+            "value": 267
+        },
+        {
+            "id": 3,
+            "text": "Total Revenue",
+            "icon": "bar_chart",
+            "value": 345
+        },
+        {
+            "id": 4,
+            "text": "New Users",
+            "icon": "person",
+            "value": 345
+        }
+    ],
+    "blogs": [
+        {
+            "id": 1,
+            "title": "Lorem ipsum dolor sit amet",
+            "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdwyZADcElRJZ9gdwohEZ66D_AyxwjHAHf3w&usqp=CAU",
+            "desc": "Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs. "
+        },
+        {
+            "id": 2,
+            "title": "Lorem ipsum dolor sit amet",
+            "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdwyZADcElRJZ9gdwohEZ66D_AyxwjHAHf3w&usqp=CAU",
+            "desc": "Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs. "
+        },
+        {
+            "id": 3,
+            "title": "Lorem ipsum dolor sit amet",
+            "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdwyZADcElRJZ9gdwohEZ66D_AyxwjHAHf3w&usqp=CAU",
+            "desc": "Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs. "
+        },
+        {
+            "id": 4,
+            "title": "Lorem ipsum dolor sit amet",
+            "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdwyZADcElRJZ9gdwohEZ66D_AyxwjHAHf3w&usqp=CAU",
+            "desc": "Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs. "
+        }
+    ],
+    "users": [
+        {
+            "id": 1,
+            "img": "https://demoee.org/use-cases/wp-content/uploads/sites/7446/2017/07/john-doe.jpg",
+            "name": "John Doe",
+            "joiningDate": "12 July 2020",
+            "designation": "Software Engineer"
+        },
+        {
+            "id": 2,
+            "name": "Clara",
+            "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUC9Owr3GzNQcMhFne0Fk6HdDbVNQabSIF4w&usqp=CAU",
+            "joiningDate": "12 July 2020",
+            "designation": "Software Engineer"
+        },
+        {
+            "id": 3,
+            "name": "John Doe",
+            "joiningDate": "12 July 2020",
+            "img": "https://demoee.org/use-cases/wp-content/uploads/sites/7446/2017/07/john-doe.jpg",
+            "designation": "Software Engineer"
+        },
+        {
+            "id": 4,
+            "name": "Clara",
+            "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUC9Owr3GzNQcMhFne0Fk6HdDbVNQabSIF4w&usqp=CAU",
+            "joiningDate": "12 July 2020",
+            "designation": "Software Engineer"
+        },
+        {
+            "id": 5,
+            "name": "John Doe",
+            "joiningDate": "12 July 2020",
+            "img": "https://demoee.org/use-cases/wp-content/uploads/sites/7446/2017/07/john-doe.jpg",
+            "designation": "Software Engineer"
+        },
+        {
+            "id": 6,
+            "name": "Clara",
+            "joiningDate": "12 July 2020",
+            "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUC9Owr3GzNQcMhFne0Fk6HdDbVNQabSIF4w&usqp=CAU",
+            "designation": "Software Engineer"
+        },
+        {
+            "id": 7,
+            "name": "John Doe",
+            "joiningDate": "12 July 2020",
+            "img": "https://demoee.org/use-cases/wp-content/uploads/sites/7446/2017/07/john-doe.jpg",
+            "designation": "Software Engineer"
+        },
+        {
+            "id": 8,
+            "name": "Clara",
+            "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUC9Owr3GzNQcMhFne0Fk6HdDbVNQabSIF4w&usqp=CAU",
+            "joiningDate": "12 July 2020",
+            "designation": "Software Engineer"
+        },
+        {
+            "id": 9,
+            "name": "John Doe",
+            "joiningDate": "12 July 2020",
+            "img": "https://demoee.org/use-cases/wp-content/uploads/sites/7446/2017/07/john-doe.jpg",
+            "designation": "Software Engineer"
+        },
+        {
+            "id": 10,
+            "name": "John Doe",
+            "joiningDate": "12 July 2020",
+            "img": "https://demoee.org/use-cases/wp-content/uploads/sites/7446/2017/07/john-doe.jpg",
+            "designation": "Software Engineer"
+        },
+        {
+            "id": 11,
+            "name": "Clara",
+            "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUC9Owr3GzNQcMhFne0Fk6HdDbVNQabSIF4w&usqp=CAU",
+            "joiningDate": "12 July 2020",
+            "designation": "Software Engineer"
+        },
+        {
+            "id": 12,
+            "name": "Mark Luis",
+            "joiningDate": "12 July 2020",
+            "img": "https://images.pexels.com/photos/5648420/pexels-photo-5648420.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+            "designation": "Software Engineer"
+        }
+    ]
+}

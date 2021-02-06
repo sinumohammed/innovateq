@@ -1,0 +1,17 @@
+<mat-toolbar class="app-header">
+    <mat-toolbar-row>
+        <button mat-icon-button (click)="onToggleSidenav()" fxShow="true" fxHide.gt-sm>
+            <mat-icon>menu</mat-icon>
+        </button>
+        <span class="brand-name">
+            <h4>LOREM</h4> | PSUM</span>
+        <span class="menu-spacer"></span>
+        <button mat-icon-button aria-label="icon-button with notification">
+            <mat-icon matBadge="3" matBadgeColor="warn">notifications</mat-icon>
+        </button>
+        <button mat-icon-button aria-label="icon-button with round info" class="adjustment">
+            <!-- <mat-icon>share</mat-icon> -->
+            <span class="round-info" matBadge="AP" matBadgeSize="large"></span>
+        </button>
+    </mat-toolbar-row>
+</mat-toolbar>

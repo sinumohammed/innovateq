@@ -1,0 +1,15 @@
+<div class="home-wrapper">
+    <app-panel title="Home" icon="grid_view">
+        <div class="panel-description">Home Page Description</div>
+    </app-panel>
+    <div class="holder">
+        <app-card class="restrict-width" *ngFor="let card of cards" [icon]="card.icon" [value]="card.value" [text]="card.text"></app-card>
+    </div>
+    <div class="blogs">
+        <app-panel title="Recent Blogs" icon="rss_feed">
+            <div class="holder">
+                <app-blog class="restrict-width" *ngFor="let blog of blogs" [img]="blog.img" [title]="blog.title" [desc]="blog.desc"></app-blog>
+            </div>
+        </app-panel>
+    </div>
+</div>

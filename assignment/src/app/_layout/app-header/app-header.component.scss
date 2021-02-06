@@ -1,0 +1,26 @@
+.app-header{    
+    background-color: #FFF;
+    .brand-name{
+        font-weight: 200;
+        color: #668094;
+        h4{
+            letter-spacing: 1px;
+            display: inline-block;
+            &::first-letter {
+                font-size: 140%;
+            }         
+        }        
+    }
+    .menu-spacer{
+        flex: 1 1 auto;
+    }
+    .adjustment {
+        margin-left: 10px;
+        margin-top: -4px;
+    }
+    .round-info .mat-badge-content{
+        font-size: 16px;
+        line-height: 30px;
+        font-weight: normal;
+    }
+}

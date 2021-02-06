@@ -1,0 +1,29 @@
+.user-wrapper{
+    padding:10px;
+    app-user{
+        margin-top: 50px;
+        min-width: 15%;
+        width: 175px;
+    }
+    .toggle-btn-gp{
+        position: absolute;
+        top: 3px;
+        right: 10px;
+    }
+    table {
+        margin-top: 10px;
+        width: 100%;
+        td{
+            position: relative;
+            img{
+            width: 24px;
+            border-radius: 12px;
+            }
+            span{
+                margin-left: 10px;
+                position: absolute;
+                top: 15px;
+            }
+        }
+    }
+}
