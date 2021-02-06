@@ -1,6 +1,6 @@
 # innovateq
 
-##Steps to run the app
+# Steps to run the app
 
 1. Install all dependencies from package.json using `npm install` inside the folder.
 
