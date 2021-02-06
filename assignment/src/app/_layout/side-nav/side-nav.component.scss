@@ -1,3 +1,4 @@
+@import "../../../_variables.scss";
 .navigation-items{
     text-decoration: none;
     list-style: none;
@@ -14,16 +15,16 @@
         font-weight: 500;
         display: flex;
         align-content: center;
-        color: #47a1f6;
+        color: $primary;
         i{
             font-size: 15px;            
         }
         a{
-            color: #47a1f6;
+            color: $primary;
         }
         &.active{
-            color: #FFF;
-            background-color: #47a1f6;
+            color: $white;
+            background-color: $primary;
             border-radius: 5px;
             a{
                 color: inherit;                

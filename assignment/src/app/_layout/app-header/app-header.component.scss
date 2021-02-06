@@ -1,8 +1,9 @@
+@import "../../../_variables.scss"; 
 .app-header{    
-    background-color: #FFF;
+    background-color: $white;
     .brand-name{
         font-weight: 200;
-        color: #668094;
+        color: $fontColor;
         h4{
             letter-spacing: 1px;
             display: inline-block;

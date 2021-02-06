@@ -1,7 +1,8 @@
 
+@import "../../../_variables.scss";
 .panel{
         position: relative;
-        background: #FFF;
+        background: $white;
         padding: 5px 0px;
         border-radius: 5px;
         .header{
