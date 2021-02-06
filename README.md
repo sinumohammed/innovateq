@@ -12,8 +12,11 @@ Try these urls are working
 3. Now run our angular application on different terminal using ng serve - inside project folder
 4. Once compiled successfully, application available on http://localhost:4200
 
-Additional steps required inside node_modules
-Go to node_module/@angular/material/_theming.scss
+# Additional steps required [step 1 & 2 if package.json not updating the packages manuallly need to run]
+1. Adding material UI - ng add @angular/material
+2. Installing flex layout - npm i @angular/flex-layout
+3. Go to node_module/@angular/material/_theming.scss
+
 add below color palllet
 $mat-custom-blue: (
   50 : #e9f4fe,
